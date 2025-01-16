@@ -29,7 +29,7 @@ function Development() {
                 <a target="_blank" href="https://github.com/rajan-khadkaa">
                   Github
                 </a>
-                <ArrowUpRightIcon className="size-3" stroke-width="2.5" />
+                <ArrowUpRightIcon className="size-3" strokeWidth="2.5" />
               </button>
             </p>
           </div>
@@ -64,7 +64,7 @@ function Development() {
                 >
                   Github
                 </a>
-                <ArrowUpRightIcon className="size-3" stroke-width="2.5" />
+                <ArrowUpRightIcon className="size-3" strokeWidth="2.5" />
               </button>
             </p>
           </div>
@@ -103,7 +103,7 @@ function Development() {
                 >
                   Github
                 </a>
-                <ArrowUpRightIcon className="size-3" stroke-width="2.5" />
+                <ArrowUpRightIcon className="size-3" strokeWidth="2.5" />
               </button>
             </p>
           </div>
@@ -134,7 +134,7 @@ function Development() {
                 <a target="_blank" href="https://github.com/rajan-khadkaa">
                   Github
                 </a>
-                <ArrowUpRightIcon className="size-3" stroke-width="2.5" />
+                <ArrowUpRightIcon className="size-3" strokeWidth="2.5" />
               </button>
             </p>
           </div>

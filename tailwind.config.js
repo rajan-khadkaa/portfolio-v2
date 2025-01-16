@@ -22,6 +22,9 @@ export default {
         "txt-secondary": "hsl(var(--txt-secondary))",
         "txt-placeholder": "hsl(var(--txt-placeholder))",
       },
+      boxShadow: {
+        "shadow-all-sides": "0 0 8px 1px rgba(0,0,0,0.05)",
+      },
     },
   },
   plugins: [],
