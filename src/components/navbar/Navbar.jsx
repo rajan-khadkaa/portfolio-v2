@@ -1,20 +1,15 @@
 import React, { useState, useEffect } from "react";
 import {
-  RectangleStackIcon,
-  UserIcon,
   HomeIcon,
-  FolderIcon,
   BriefcaseIcon,
-  CodeBracketIcon,
   CodeBracketSquareIcon,
   PhoneIcon,
-  DevicePhoneMobileIcon,
   SunIcon,
   MoonIcon,
 } from "@heroicons/react/24/outline";
 
 function Navbar() {
-  const [active, setActive] = useState("profile");
+  const [active, setActive] = useState("home");
   const [isDark, setIsDark] = useState(() => {
     const storedMode = localStorage.getItem("mode");
     if (storedMode === "dark") return true;
@@ -34,19 +29,19 @@ function Navbar() {
     <div className="w-full flex h-[60px] px-[6px] py-[2px] items-center justify-center">
       <a
         onClick={() => {
-          setActive("profile");
+          setActive("home");
         }}
         className={`h-full flex flex-col items-center justify-center relative group`}
-        href="#profile"
+        href="#home"
       >
         <span
           className={`text-xs absolute -top-7 opacity-0 bg-btn-main text-white px-2 py-1 rounded-md  group-hover:opacity-100 transition-opacity`}
         >
-          Profile
+          Home
         </span>
         <div
           className={`${
-            active === "profile" ? "bg-btn-opt" : ""
+            active === "home" ? "bg-btn-opt" : ""
           }  rounded-full p-[14px] text-txt-primary flex items-center justify-center`}
         >
           <HomeIcon className={`size-5`} />

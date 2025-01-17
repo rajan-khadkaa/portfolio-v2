@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
 import profImage from "../../assets/profile.png";
 import "../../App.css";
 
 function Profile() {
   return (
     <section
-      id="profile"
+      id="home"
       className="flex justify-between items-start w-full pt-16"
     >
       <div className="flex flex-col gap-5">
