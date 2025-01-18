@@ -3,12 +3,12 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 
 function Development() {
   return (
-    <div className="w-full flex flex-col gap-10">
-      <div className="w-full grid gap-5 grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))]">
+    <div className="w-full flex flex-wrap flex-col gap-10">
+      <div className="w-full grid gap-5 grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))]  sm:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] md:grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] ">
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] border-[1.5px] border-bdr-opt rounded-md overflow-hidden">
+          <div className="w-full flex justify-center items-center h-[213px] rounded-md overflow-hidden">
             <img
-              className="w-full h-full transition-transform ease-out duration-300 hover:scale-105"
+              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
               src="./img-4.png"
               alt="plan-it"
             />
@@ -35,9 +35,9 @@ function Development() {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] border-[1.5px] border-bdr-opt rounded-md overflow-hidden">
+          <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
             <img
-              className="w-full h-full transition-transform ease-out duration-300 hover:scale-105"
+              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
               src="./img-2.png"
               alt="plan-it"
             />
@@ -70,11 +70,11 @@ function Development() {
           </div>
         </div>
       </div>
-      <div className="w-full grid gap-5 grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))]">
+      <div className="w-full grid gap-5 grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))]  sm:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] md:grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] ">
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] border-[1.5px] border-bdr-opt rounded-md overflow-hidden">
+          <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
             <img
-              className="w-full h-full transition-transform ease-out duration-300 hover:scale-105"
+              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
               src="./img-3.png"
               alt="plan-it"
             />
@@ -109,9 +109,9 @@ function Development() {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] border-[1.5px] border-bdr-opt rounded-md overflow-hidden">
+          <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
             <img
-              className="w-full h-full transition-transform ease-out duration-300 hover:scale-105"
+              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
               src="./img-1.png"
               alt="plan-it"
             />

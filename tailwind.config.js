@@ -21,6 +21,7 @@ export default {
         "txt-primary": "hsl(var(--txt-primary))",
         "txt-secondary": "hsl(var(--txt-secondary))",
         "txt-placeholder": "hsl(var(--txt-placeholder))",
+        "clr-footer": "hsl(var(--clr-footer))",
       },
       boxShadow: {
         "shadow-all-sides": "0 0 8px 1px rgba(0,0,0,0.05)",

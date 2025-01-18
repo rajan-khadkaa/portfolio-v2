@@ -26,7 +26,7 @@ function Navbar() {
   }, [isDark]);
 
   return (
-    <div className="w-full flex h-[60px] px-[6px] py-[2px] items-center justify-center">
+    <div className="w-full flex h-[50px] px-[6px] py-[2px] items-center justify-center">
       <a
         onClick={() => {
           setActive("home");
@@ -42,9 +42,9 @@ function Navbar() {
         <div
           className={`${
             active === "home" ? "bg-btn-opt" : ""
-          }  rounded-full p-[14px] text-txt-primary flex items-center justify-center`}
+          }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
-          <HomeIcon className={`size-5`} />
+          <HomeIcon className={`size-[18px]`} />
         </div>
       </a>
 
@@ -63,9 +63,9 @@ function Navbar() {
         <div
           className={`${
             active === "projects" ? "bg-btn-opt" : ""
-          }  rounded-full p-[14px] text-txt-primary flex items-center justify-center`}
+          }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
-          <BriefcaseIcon className={`size-5`} />
+          <BriefcaseIcon className={`size-[18px]`} />
         </div>
       </a>
       <a
@@ -83,10 +83,10 @@ function Navbar() {
         <div
           className={`${
             active === "skills" ? "bg-btn-opt" : ""
-          }  rounded-full p-[14px] text-txt-primary flex items-center justify-center`}
+          }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
           {/* <CodeBracketIcon className={`size-5`} /> */}
-          <CodeBracketSquareIcon className={`size-5`} />
+          <CodeBracketSquareIcon className={`size-[18px]`} />
         </div>
       </a>
       <a
@@ -104,28 +104,29 @@ function Navbar() {
         <div
           className={`${
             active === "contact" ? "bg-btn-opt" : ""
-          }  rounded-full p-[14px] text-txt-primary flex items-center justify-center`}
+          }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
-          <PhoneIcon className={`size-5`} />
+          <PhoneIcon className={`size-[16px]`} />
         </div>
       </a>
 
-      <span className={`${active === "contact" ? "ml-3" : ""} py-2 h-full`}>
-        <hr className=" bg-bdr-opt w-[1.8px] h-full" />
-      </span>
+      <div className={`${active === "contact" ? "ml-3" : ""} py-2 h-full`}>
+        <hr className=" bg-bdr-opt w-[1.5px] border-none h-full" />
+        {/* <span className="bg-bdr-opt w-[px] h-full"></span> */}
+      </div>
       <div
         onClick={() => setIsDark((prev) => !prev)}
         className={`${
           isDark ? "" : ""
-        }  rounded-full p-[14px] h-10 w-10 ml-2 mr-1 text-txt-primary flex items-center justify-center`}
+        }  rounded-full p-[11px] h-10 w-10 ml-2 mr-1 text-txt-primary flex items-center justify-center`}
       >
         {isDark ? (
           <div>
-            <MoonIcon className={`size-5`} />
+            <MoonIcon className={`size-[14px]`} />
           </div>
         ) : (
           <div>
-            <SunIcon className={`size-6`} />
+            <SunIcon className={`size-5`} />
           </div>
         )}
       </div>

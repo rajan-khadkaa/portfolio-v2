@@ -9,9 +9,9 @@ html {
 @layer base {
   /* Light Theme Variables */
   :root {
-    --clr-white: 0, 0%, 100%;
-    --clr-black: 0, 0%, 0%;
-    --btn-main: 222, 42%, 8%;
+    --clr-white: 0, 0%, 98%;
+    --clr-black: 0, 0%, 10%;
+    --btn-main: 0, 0%, 15%;
     --btn-opt: 222, 1%, 93%;
     --btn-cta: 221, 83%, 53%;
     --txt-cta: 0, 0%, 100%;
@@ -21,22 +21,26 @@ html {
     --txt-primary: 0, 0%, 25%;
     --txt-secondary: 217, 23%, 47%;
     --txt-placeholder: 217, 23%, 75%;
+    --clr-footer: 0, 0%, 10%;
   }
 
   /* Dark Theme Variables */
   .dark {
-    --clr-white: 0, 0%, 0%; /* black */
-    --clr-black: 0, 0%, 100%; /* white */
+    --clr-white: 0, 0%, 10%; /* black */
+    --clr-black: 0, 0%, 98%; /* white */
     /* --btn-main: 222, 20%, 12%; */
-    --btn-main: 217, 23%, 70%;
-    --btn-opt: 222, 5%, 20%;
+    --btn-main: 222, 5%, 50%;
+    /* --btn-main: 217, 23%, 70%; */
+    --btn-opt: 222, 5%, 15%;
     --btn-cta: 221, 83%, 53%;
-    --txt-cta: 0, 0%, 100%;
+    --txt-cta: 0, 0%, 90%;
     --bdr: 218, 3%, 30%;
     --bdr-opt: 0, 0%, 20%;
     --txt-highlight: 0, 0%, 90%;
     --txt-primary: 0, 0%, 85%;
-    --txt-secondary: 217, 23%, 60%;
-    --txt-placeholder: 217, 23%, 32%;
+    --txt-secondary: 0, 0%, 56%;
+    /* --txt-secondary: 217, 23%, 60%; */
+    --txt-placeholder: 0, 0%, 30%;
+    --clr-footer: 0, 0%, 15%;
   }
 }
