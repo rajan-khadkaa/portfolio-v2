@@ -104,7 +104,7 @@ function Contact() {
           </div>
           <div className="flex h-full gap-2 items-center">
             <button
-              className="flex gap-2 items-center py-[10px] px-4 bg-btn-cta rounded-md text-txt-cta text-sm hover:bg-[#144bc2] hover:border-[#144bc2]"
+              className="flex gap-2 items-center py-[12px] sm:py-[10px] px-4 bg-btn-cta rounded-md text-txt-cta text-sm hover:bg-[#144bc2]"
               type="submit"
             >
               <span>Send Message</span>
@@ -112,7 +112,7 @@ function Contact() {
             </button>
             <span className="w-[1px] h-[20px] bg-txt-placeholder"></span>
             <button
-              className={`flex gap-2 items-center py-[10px] px-4 rounded-md text-sm ${
+              className={`flex gap-2 items-center py-[12px] sm:py-[10px] px-4 rounded-md text-sm ${
                 copied
                   ? "bg-[#2463eb] bg-opacity-20 text-btn-cta"
                   : "bg-btn-opt text-txt-secondary hover:text-btn-cta"

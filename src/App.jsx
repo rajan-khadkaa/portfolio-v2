@@ -35,9 +35,12 @@ function App() {
     const viewportHeight = document.documentElement.clientHeight; //eg. 800px
     const scrolledHeight = window.scrollY; //it never ie total window height, must add viewport height then it will be. so 1200px
 
+    const navbarHidePoint = 100;
+
     // now add viewportHeight and scrolledHeight and if it is greater or equals to totalHeight then it should hide the
     // navbar.All this is done to hide navbar when it reaches footer so navbar won't block footer contents
-    if (viewportHeight + scrolledHeight >= totalHeight) {
+    if (viewportHeight + scrolledHeight >= totalHeight - navbarHidePoint) {
+      //here it hides eg. 100px before it reaches to bottom
       setShow(false);
     } else {
       setShow(true);
