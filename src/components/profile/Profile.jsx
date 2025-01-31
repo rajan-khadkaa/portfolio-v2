@@ -37,7 +37,7 @@ function Profile() {
               target="_blank"
             >
               <button
-                className="flex gap-[7px] items-center py-[7px] px-6 bg-btn-cta border-[1.8px] border-btn-cta  rounded-md  text-txt-cta text-sm"
+                className="flex gap-[7px] items-center py-[9px] px-6 bg-btn-cta border-[1.8px] border-btn-cta  rounded-md  text-txt-cta text-sm"
                 type="button"
               >
                 <span>Hire Me</span>
@@ -50,7 +50,7 @@ function Profile() {
             <div className="flex gap-0 items-center border-[1.8px] border-bdr-opt rounded-md">
               <a href="/Rajan_Khakdka_Resume.pdf" target="_blank">
                 <button
-                  className="flex gap-[10px] items-center py-[7px] px-5 bg-none border-none rounded-md text-txt-secondary hover:text-btn-cta text-sm "
+                  className="flex gap-[10px] items-center py-[9px] px-5 bg-none border-none rounded-md text-txt-secondary hover:text-btn-cta text-sm "
                   type="button"
                 >
                   <span>View Resume</span>

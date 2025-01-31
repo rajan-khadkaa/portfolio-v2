@@ -26,7 +26,7 @@ function Navbar() {
   }, [isDark]);
 
   return (
-    <div className="w-full flex h-[50px] px-[6px] py-[2px] items-center justify-center">
+    <div className="w-full flex h-[50px] px-[3px] sm:px-[6px] py-[2px] items-center justify-center">
       <a
         onClick={() => {
           setActive("home");
@@ -44,7 +44,7 @@ function Navbar() {
             active === "home" ? "bg-btn-opt" : ""
           }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
-          <HomeIcon className={`size-[18px]`} />
+          <HomeIcon className={`size-6 sm:size-[18px]`} />
         </div>
       </a>
 
@@ -65,7 +65,7 @@ function Navbar() {
             active === "projects" ? "bg-btn-opt" : ""
           }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
-          <BriefcaseIcon className={`size-[18px]`} />
+          <BriefcaseIcon className={`size-6 sm:size-[18px]`} />
         </div>
       </a>
       <a
@@ -86,7 +86,7 @@ function Navbar() {
           }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
           {/* <CodeBracketIcon className={`size-5`} /> */}
-          <CodeBracketSquareIcon className={`size-[18px]`} />
+          <CodeBracketSquareIcon className={`size-6 sm:size-[18px]`} />
         </div>
       </a>
       <a
@@ -106,7 +106,7 @@ function Navbar() {
             active === "contact" ? "bg-btn-opt" : ""
           }  rounded-full p-[11px] text-txt-primary flex items-center justify-center`}
         >
-          <PhoneIcon className={`size-[16px]`} />
+          <PhoneIcon className={`size-[22px] sm:size-[16px]`} />
         </div>
       </a>
 
@@ -122,11 +122,11 @@ function Navbar() {
       >
         {isDark ? (
           <div>
-            <MoonIcon className={`size-[14px]`} />
+            <MoonIcon className={`size-5 sm:size-[14px]`} />
           </div>
         ) : (
           <div>
-            <SunIcon className={`size-5`} />
+            <SunIcon className={`size-[26px] sm:size-5`} />
           </div>
         )}
       </div>

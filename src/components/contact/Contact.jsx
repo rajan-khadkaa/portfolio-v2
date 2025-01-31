@@ -1,10 +1,15 @@
 import React, { useState, useRef } from "react";
-import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
+import {
+  PaperAirplaneIcon,
+  ClipboardIcon,
+  DocumentCheckIcon,
+} from "@heroicons/react/24/outline";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [copied, setCopied] = useState(false);
   const form = useRef();
 
   const serviceId = import.meta.env.VITE_SERVICE_ID;
@@ -48,6 +53,14 @@ function Contact() {
       );
   };
 
+  const handleCopy = () => {
+    navigator.clipboard.writeText("rajankhadkaa0809@gmail.com");
+    setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 3000);
+  };
+
   return (
     <section id="contact" className="flex w-full flex-col gap-3 pt-16">
       <h3 className="text-2xl font-semibold text-txt-primary">Contact me</h3>
@@ -69,7 +82,7 @@ function Contact() {
               value={email}
               name="user_email"
               onChange={(event) => setEmail(event.target.value)}
-              placeholder="yourgmail@gmail.com"
+              placeholder="youremail@gmail.com"
               type="email"
             />
           </div>
@@ -89,13 +102,32 @@ function Contact() {
               type="text"
             />
           </div>
-          <button
-            className="flex gap-2 items-center py-2 px-4 bg-btn-cta rounded-md text-txt-cta text-sm"
-            type="submit"
-          >
-            <span>Send Message</span>
-            <PaperAirplaneIcon className="-rotate-45 size-4" />
-          </button>
+          <div className="flex h-full gap-2 items-center">
+            <button
+              className="flex gap-2 items-center py-[10px] px-4 bg-btn-cta rounded-md text-txt-cta text-sm hover:bg-[#144bc2] hover:border-[#144bc2]"
+              type="submit"
+            >
+              <span>Send Message</span>
+              <PaperAirplaneIcon className="-rotate-45 size-4" />
+            </button>
+            <span className="w-[1px] h-[20px] bg-txt-placeholder"></span>
+            <button
+              className={`flex gap-2 items-center py-[10px] px-4 rounded-md text-sm ${
+                copied
+                  ? "bg-[#2463eb] bg-opacity-20 text-btn-cta"
+                  : "bg-btn-opt text-txt-secondary hover:text-btn-cta"
+              }`}
+              type="button"
+              onClick={handleCopy}
+            >
+              <span>{`${copied ? "Email Copied!" : "Copy My Email"} `}</span>
+              {copied ? (
+                <DocumentCheckIcon className="size-4" />
+              ) : (
+                <ClipboardIcon className="size-4" />
+              )}
+            </button>
+          </div>
         </form>
       </div>
     </section>

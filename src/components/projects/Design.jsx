@@ -9,8 +9,8 @@ function Design() {
           <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
             <img
               className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./img-1.png"
-              alt="plan-it"
+              src="./images/safetrack.png"
+              alt="child-safety tracking"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -43,8 +43,8 @@ function Design() {
           <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
             <img
               className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./img-3.png"
-              alt="plan-it"
+              src="./images/hrms.png"
+              alt="human-resource-management"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -56,11 +56,6 @@ function Design() {
               payroll.
             </p>
             <p className="flex gap-4 font-medium text-sm text-txt-secondary ">
-              {/* <button className="border-b-[1.8px] border-txt-secondary hover:text-txt-primary hover:border-txt-primary transition-colors duration-150 ease-out">
-                <a target="_blank" href="https://github.com/rajan-khadkaa">
-                  Demo
-                </a>
-              </button> */}
               <button className="flex items-center gap-1 border-b-[1.8px] border-txt-secondary hover:text-txt-primary hover:border-txt-primary transition-colors duration-150 ease-out">
                 <a
                   target="_blank"
@@ -79,8 +74,8 @@ function Design() {
           <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
             <img
               className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./img-2.png"
-              alt="plan-it"
+              src="./images/dashboard.png"
+              alt="human-resource-dashboard"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -92,11 +87,6 @@ function Design() {
               efficiently.
             </p>
             <p className="flex gap-4 font-medium text-sm text-txt-secondary ">
-              {/* <button className="border-b-[1.8px] border-txt-secondary hover:text-txt-primary hover:border-txt-primary transition-colors duration-150 ease-out">
-                <a target="_blank" href="https://github.com/rajan-khadkaa">
-                  Demo
-                </a>
-              </button> */}
               <button className="flex items-center gap-1 border-b-[1.8px] border-txt-secondary hover:text-txt-primary hover:border-txt-primary transition-colors duration-150 ease-out">
                 <a
                   target="_blank"
@@ -113,8 +103,8 @@ function Design() {
           <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
             <img
               className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./img-4.png"
-              alt="plan-it"
+              src="./images/donate.png"
+              alt="blood-donation"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -126,11 +116,6 @@ function Design() {
               faster donations.
             </p>
             <p className="flex gap-4 font-medium text-sm text-txt-secondary">
-              {/* <button className="border-b-[1.8px] border-txt-secondary hover:text-txt-primary hover:border-txt-primary transition-colors duration-150 ease-out">
-                <a target="_blank" href="https://github.com/rajan-khadkaa">
-                  Demo
-                </a>
-              </button> */}
               <button className="flex items-center gap-1 border-b-[1.8px] border-txt-secondary hover:text-txt-primary hover:border-txt-primary transition-colors duration-150 ease-out">
                 <a
                   target="_blank"
