@@ -37,7 +37,7 @@ function Profile() {
               target="_blank"
             >
               <button
-                className="flex gap-[7px] items-center py-[10px] sm:py-[9px] px-6 bg-btn-cta border-[1.8px] border-btn-cta  rounded-md  text-txt-cta text-sm"
+                className="flex gap-[7px] items-center py-[10px] sm:py-[9px] px-6 bg-btn-cta border-[1.8px] border-btn-cta  rounded-md  text-txt-cta text-sm hover:bg-[#144bc2] hover:border-[#144bc2]"
                 type="button"
               >
                 <span>Hire Me</span>

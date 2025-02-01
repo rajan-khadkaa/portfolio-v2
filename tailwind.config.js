@@ -22,6 +22,8 @@ export default {
         "txt-secondary": "hsl(var(--txt-secondary))",
         "txt-placeholder": "hsl(var(--txt-placeholder))",
         "clr-footer": "hsl(var(--clr-footer))",
+        "tech-stack": "hsl(var(--tech-stack))",
+        "project-card": "hsl(var(--project-card))",
       },
       boxShadow: {
         "shadow-all-sides": "0 0 8px 1px rgba(0,0,0,0.05)",

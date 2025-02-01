@@ -4,12 +4,12 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 function Design() {
   return (
     <div className="w-full flex flex-col gap-10">
-      <div className="w-full grid gap-5 grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))]  sm:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] md:grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] ">
+      <div className="w-full grid gap-10 sm:gap-5 grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))]  sm:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] md:grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] ">
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
+          <div className="w-full h-[213px] bg-project-card flex justify-center items-center rounded-md overflow-hidden">
             <img
-              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./images/safetrack.png"
+              className="w-[84%] h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
+              src="./images/safetrack2.png"
               alt="child-safety tracking"
             />
           </div>
@@ -40,10 +40,10 @@ function Design() {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
+          <div className="w-full h-[213px] bg-project-card flex justify-center items-center rounded-md overflow-hidden">
             <img
-              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./images/hrms.png"
+              className="w-[84%] h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
+              src="./images/hrms2.png"
               alt="human-resource-management"
             />
           </div>
@@ -69,12 +69,12 @@ function Design() {
           </div>
         </div>
       </div>
-      <div className="w-full grid gap-5 grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))]  sm:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] md:grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] ">
+      <div className="w-full grid gap-10 sm:gap-5 grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))]  sm:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] md:grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] ">
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
+          <div className="w-full h-[213px] bg-project-card flex justify-center items-center rounded-md overflow-hidden">
             <img
-              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./images/dashboard.png"
+              className="w-[84%] h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
+              src="./images/dashboard2.png"
               alt="human-resource-dashboard"
             />
           </div>
@@ -100,10 +100,10 @@ function Design() {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <div className="w-full h-[213px] flex justify-center items-center rounded-md overflow-hidden">
+          <div className="w-full h-[213px] bg-project-card flex justify-center items-center rounded-md overflow-hidden">
             <img
-              className="w-full h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
-              src="./images/donate.png"
+              className="w-[84%] h-auto rounded-md transition-transform ease-out duration-300 hover:scale-105"
+              src="./images/donate2.png"
               alt="blood-donation"
             />
           </div>
