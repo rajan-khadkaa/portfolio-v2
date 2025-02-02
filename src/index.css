@@ -105,8 +105,8 @@ html {
   ); */
   /* width: fit-content;
   height: fit-content; */
-  width: 100px;
-  height: 40px;
+  /* width: 100px;
+  height: 40px; */
   /* border-radius: 10px; */
   animation: 5s spin linear infinite;
   z-index: 2;
@@ -140,7 +140,7 @@ html {
   transform: translateX(-50%);
   background-color: hsl(var(--clr-white));
   /* border-radius: 8px; */
-  z-index: -1;
+  z-index: 1;
 }
 
 .flip-wrapper {

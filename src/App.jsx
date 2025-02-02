@@ -62,13 +62,13 @@ function App() {
               show ? "" : "translate-y-[calc(100%+50px)]" //this will hide and further push down the navbar by 50px so nothing appears
               // show ? "" : ""
               // } transition-all duration-500 fixed bottom-4 left-1/2 transform -translate-x-1/2 box-border rounded-full bg-white shadow-shadow-all-sides border-[1.5px] border-bdr-opt`}
-            } transition-all duration-500 fixed bottom-4 left-1/2 transform -translate-x-1/2 box-border rounded-full bg-white shadow-shadow-all-sides`}
+            } transition-all duration-500 fixed  bottom-4 left-1/2 transform -translate-x-1/2 box-border rounded-full bg-white shadow-shadow-all-sides`}
           >
             <Navbar />
           </div>
         </div>
       </div>
-      <div className="flex justify-center relative bg-clr-footer w-full">
+      <div className="flex justify-center bg-clr-footer w-full">
         <Footer />
       </div>
     </div>
