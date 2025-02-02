@@ -107,6 +107,7 @@ html {
   height: fit-content;
   /* border-radius: 10px; */
   animation: 5s spin linear infinite;
+  z-index: 1;
 }
 
 @keyframes spin {
@@ -136,6 +137,7 @@ html {
   translate: -50% 0;
   background-color: hsl(var(--clr-white));
   /* border-radius: 8px; */
+  z-index: 2;
 }
 
 .flip-wrapper {
