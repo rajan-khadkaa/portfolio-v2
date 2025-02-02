@@ -68,7 +68,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center bg-clr-footer w-full">
+      <div className="flex justify-center relative bg-clr-footer w-full">
         <Footer />
       </div>
     </div>
