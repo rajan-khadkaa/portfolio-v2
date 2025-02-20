@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 import { FaReact, FaNodeJs, FaCss3 } from "react-icons/fa";
 import { RiTailwindCssLine, RiFirebaseLine } from "react-icons/ri";
-import { TbBrandMongodb } from "react-icons/tb";
+import { TbBrandMongodb, TbBrandNextjs } from "react-icons/tb";
 import { SiCloudinary, SiJsonwebtokens } from "react-icons/si";
 
 function Development() {
@@ -419,12 +419,12 @@ function Development() {
                 />
               </div>
               <p className="font-normal text-sm text-txt-secondary mb-4">
-                A basic chrome extension developed with React to add, organize,
-                and manage notes quickly and easily.
+                A full-stack authentication web app built with Next.js for both
+                frontend and backend, for user login and signup.
               </p>
               <div className="font-normal flex flex-wrap gap-1 text-xs text-center text-txt-secondary">
                 <span className="bg-white rounded-md px-[10px] py-[3px]">
-                  React
+                  Next.js
                 </span>
                 <span className="bg-white rounded-md px-[10px] py-[3px]">
                   Tailwind
@@ -436,10 +436,10 @@ function Development() {
           {/* </div> */}
           <div className="flex flex-col gap-2">
             <h4 className="font-semibold text-lg text-txt-primary">
-              Quick-Note{" "}
-              <span className="text-txt-secondary font-medium text-sm">
+              NextJS-Auth-Fullstack{" "}
+              {/* <span className="text-txt-secondary font-medium text-sm">
                 (Chrome Extension)
-              </span>
+              </span> */}
             </h4>
             {/* <div className="flex gap-2 items-center">
               <span className="p-1 rounded-full border-[1.5px] border-btn-opt">
@@ -486,8 +486,13 @@ function Development() {
               </span>
             </div> */}
             <div className="flex gap-2 items-center">
-              <span className="p-1 rounded-full border-[1.5px] border-btn-opt text-tech-stack hover:text-[#61DAFB] hover:border-[#61DAFB] transition-colors duration-500">
-                <FaReact style={{ strokeWidth: 8 }} />
+              <span className="p-[2px] text-center rounded-full border-[1.5px] border-btn-opt text-tech-stack opacity-90 hover:opacity-100 hover:text-txt-primary hover:border-txt-primary transition-colors duration-500">
+                <TbBrandNextjs
+                  className="size-5"
+                  style={{
+                    strokeWidth: 2,
+                  }}
+                />
               </span>
               <span className="p-1 rounded-full border-[1.5px] border-btn-opt text-tech-stack hover:text-[#38B2AC] hover:border-[#38B2AC] transition-colors duration-500">
                 <RiTailwindCssLine
@@ -504,7 +509,10 @@ function Development() {
                 </a>
               </button> */}
               <button className="flex items-center gap-1 border-b-[1.8px] border-txt-secondary hover:text-txt-primary hover:border-txt-primary transition-colors duration-150 ease-out">
-                <a target="_blank" href="https://github.com/rajan-khadkaa">
+                <a
+                  target="_blank"
+                  href="https://github.com/rajan-khadkaa/nextjs-authentication-fullstack"
+                >
                   Github
                 </a>
                 <ArrowUpRightIcon className="size-3" strokeWidth="2.5" />

@@ -171,7 +171,75 @@ html {
   transform: rotateX(-0deg);
 }
 
-.test {
+.shinyCard,
+.shinyCardOpt {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.shinyCard::before,
+.shinyCardOpt::before {
+  content: "";
+  position: absolute;
+  /* background-color: black; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  transition: all 0.8s ease;
+}
+
+.shinyCard::before {
+  background: linear-gradient(
+    120deg,
+    transparent,
+    transparent,
+    hsl(var(--clr-white)),
+    transparent,
+    transparent
+  );
+  opacity: 70%;
+}
+.shinyCardOpt::before {
+  background: linear-gradient(
+    120deg,
+    transparent,
+    transparent,
+    hsl(var(--txt-primary)),
+    transparent,
+    transparent
+  );
+  opacity: 30%;
+}
+
+.shinyCard:hover::before,
+.shinyCardOpt:hover::before {
+  left: 100%;
+}
+
+/* .shinyCardWrapper {
+  position: relative; 
+}
+
+.shinyCard {
+  position: relative; 
+  z-index: 2; 
+}
+
+.shinyCardWrapper::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+} */
+
+/* .test {
   color: #144bc2;
   background: #2463eb;
 
@@ -179,4 +247,4 @@ html {
   background-color: #5569eb;
 
   color: hsl(222, 1%, 93%);
-}
+} */
