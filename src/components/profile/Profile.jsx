@@ -48,7 +48,7 @@ function Profile() {
               </button>
             </a>
             <div className="flex gap-0 items-center border-[1.8px] border-bdr-opt rounded-md">
-              <a href="/Rajan_Khakdka_Resume.pdf" target="_blank">
+              <a href="/Rajan_Khadka_Resume.pdf" target="_blank">
                 <button
                   className="flex gap-[10px] items-center py-[10px] sm:py-[9px] px-5 bg-none border-none rounded-md text-txt-secondary hover:text-btn-cta text-sm "
                   type="button"
