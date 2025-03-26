@@ -29,7 +29,7 @@ function Profile() {
             Hi, I am Rajan
           </h2>
           <p className="text-txt-secondary text-lg font-medium">
-            I am a MERN stack developer, looking for internships.
+            I am a MERN/Next.js developer, looking for internships.
           </p>
           <div className="flex items-center gap-2 mt-2">
             <a
