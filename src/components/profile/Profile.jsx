@@ -61,7 +61,7 @@ function Profile() {
                 <span className="border-[1px] border-bdr-opt"></span>
               </div>
               <a
-                href="/Rajan_Khakdka_Resume.pdf"
+                href="/Rajan_Khadka_Resume.pdf"
                 target="_blank"
                 download="Rajan_Khadka_Resume.pdf"
               >
